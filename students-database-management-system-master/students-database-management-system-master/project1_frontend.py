@@ -22,7 +22,7 @@ class Student:
        ###########################FUNCTIONS#############
        pb.studentData()
        def iExit():
-              iExit=tkinter.messagebox.askyesno("srikanth's student dbms","conform if you want to exit")
+              iExit=tkinter.messagebox.askyesno("Satyam's student dbms","confirm if you want to exit")
               if iExit>0:
                      root.destroy()
                      return
@@ -94,10 +94,10 @@ class Student:
        self.lblTit=Label(TitFrame,font=('arial',47,'bold'),text="Students Database Management System",bg="red",fg="black")
        self.lblTit.grid()
 
-       self.lblTit=Label(TitFrame,font=('arial',25,'bold'),text="K L UNIVERSITY",bg="red",fg="black")
+       self.lblTit=Label(TitFrame,font=('arial',25,'bold'),text="lovely professional university",bg="red",fg="black")
        self.lblTit.grid()
 
-       self.lblTit=Label(TitFrame,font=('arial',12),text="(ALURU VISVA SAI SRIKANTH)",bg="red",fg="black")
+       self.lblTit=Label(TitFrame,font=('arial',12),text="(satyam trivedi)",bg="red",fg="black")
        self.lblTit.grid()
 
        ButtonFrame=Frame(MainFrame,bd=1,width=1350,height=70,padx=18,pady=10,bg="red",relief=RIDGE)
